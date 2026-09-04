@@ -1,0 +1,17 @@
+.venv/
+.portable/
+.pip-cache/
+__pycache__/
+*.py[cod]
+App/data/
+App/Uploaded_Resumes/
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+.tmp/
+.tmpdeps/
+requested_files_copy/
+requested_files_copy.zip

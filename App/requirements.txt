@@ -1,0 +1,10 @@
+streamlit
+pandas
+plotly
+pdfminer.six
+pypdf
+streamlit-tags
+Pillow
+geocoder
+geopy
+PyMySQL
