@@ -59,7 +59,7 @@ class ResumeParser:
         return os.path.splitext(os.path.basename(self.resume))[0]
 
     def _extract_email(self, text):
-        match = re.search(r'[\w.+-]+@[\w-]+\.[\w.-]+', text)
+        match = re.search(r'[\w.+-]+@[\w-]+(?:\.[\w-]+)+', text)
         return match.group(0) if match else ''
 
     def _extract_mobile(self, text):
